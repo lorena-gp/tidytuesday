@@ -59,5 +59,5 @@ ggplot(top_ranked_birds_v1, aes(reorder(bird, total), total)) +
     )
   )
 
-ggsave("NZ_bird.png", plot,
+ggsave("NZ-birds.png", plot,
        width = 10, height = 7)
